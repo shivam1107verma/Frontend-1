@@ -1,0 +1,24 @@
+/* psuedo_element:
+
+Syntax => any_selector::psuedo_class 
+
+*/
+
+
+.para-1::first-line{
+    color: blue;
+}
+
+.para-1::first-letter{
+    color: green;
+}
+
+.para-1::after{
+    content: "dfsgggggggggggggggg";
+    color: red;
+}
+
+.para-1::before{
+    content: "fdgssssssssssssssssssssssssss";
+    color:red;
+}

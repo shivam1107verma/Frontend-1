@@ -1,0 +1,70 @@
+
+/* psuedo_class-Selector:
+
+Syntax => any_selector: psuedo_class 
+
+*/
+
+/* :linl => it selects all the unvisited links */
+a:link{
+    color: goldenrod;
+}
+
+
+/* :visited => it selects all the visited links */
+a:visited{
+    color:gray ;
+    
+}
+
+
+/* :hover => Adds styles when you move your cursor over paticular element */
+a:hover{
+    color: yellow;
+}
+
+/* :active =>Add style when you click on link */
+a:active{
+    color: crimson;
+}
+
+/* :focus is used to slesct an element that is focus on used with input element only */
+input:focus{
+    background-color: yellow;
+}
+
+input:hover{
+    border: 5px solid black ;
+    background-color: violet;
+    scale: 2;
+}
+
+
+.btn:hover{
+    background-color: yellowgreen;
+    border: 2px dotted darkred;
+    color: orangered;
+    scale: 2;
+
+}
+
+/* :first-child is used to give style to first tag */
+.container>p:first-child{
+    background-color: yellow;
+    color: darkred;
+}
+
+/* :last-child is used to give style to last tag */
+.container>p:last-child{
+    background-color: skyblue;
+    color: green;
+}
+
+/* :nth-child is used to give style to nth tag */
+.container>p:nth-child(2n+1):hover{
+    background-color: green;
+    color: white;
+}
+
+
+

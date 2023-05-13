@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td,th{
+            border: 1px solid black;
+            text-align: center;
+        
+        }
+       
+        .table3{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .table1{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <table >
+        <tr>
+            <td class="table2">
+                <!-- Nested Table 2 -->
+                <table style="width: 100%;"> 
+                    <tr>
+                        <th colspan="2">Nested Table 2</th>
+                    </tr>
+                    <tr>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                    </tr>
+                    <tr>
+                       <td>abc</td> 
+                       <td>def</td>
+                    </tr>
+                </table>
+            </td>
+            <td class="table1">
+                <!-- nested table 1 -->
+                <table style="width: 100%;">
+                    <tr>
+                        <th>Nested Table 1</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>List item</li>
+                                <li>List item</li>
+                                <li>List item</li>
+                            </ul>
+                        </td>
+                    </tr>
+              </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="table3">
+                <!-- Nested table 3 -->
+                <table style="width: 100%;">
+                    <tr>
+                        <th colspan="2">Nested Table 3</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Nested Table</a>
+                        </td>
+                        <td>
+                            Demo Continued
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+            <td>
+                <!-- nested Table 4 -->
+                <table style="width: 100%;">
+                    <tr>
+                        <th>Nested Table 4</th>
+                    </tr>
+                    <tr>
+                        <th style="background-color: black; color: white"> HTML</th>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

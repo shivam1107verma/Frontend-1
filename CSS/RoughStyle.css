@@ -1,0 +1,36 @@
+
+p~h1{
+    border: 2px dotted blue;
+}
+
+h1+p{
+    color: green;
+    border: 2px solid violet;
+}
+
+div>p{
+    color: yellowgreen;
+}
+
+div p{
+     color:dimgrey; 
+     font-family: fantasy;
+}
+
+ul>li{
+    font-weight: bold;
+}
+
+.btn{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    border: 3px solid darkgreen;
+    background-color: lightgreen;
+    border-radius: 10px;
+    padding: 10px;
+    width: 33%;
+}
+
+

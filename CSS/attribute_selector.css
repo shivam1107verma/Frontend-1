@@ -1,0 +1,18 @@
+/* Attribute Selector:
+
+Syntax => any_selector[ attribute_name="attribute_value"] 
+
+*/
+
+input[ type="text"], input[ type="email"]{
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:italic;
+
+}
+
+input[ type="password"]:hover{
+    border: 2px solid darkblue;
+    background-color: skyblue;
+}
